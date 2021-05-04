@@ -13,7 +13,8 @@ right_column = st.image("https://www.aphp.fr/sites/default/files/don_dambulances
 st.write('We will take a look at the different categories of 911 calls')
 
 
-DATA_PATH ="/Users/dorian.erkens/Desktop/Jedha_FS_Bootcamp/Final Project/Streamlit/911_emergencies/911.csv"
+#DATA_PATH ="/Users/dorian.erkens/Desktop/Jedha_FS_Bootcamp/Final Project/Streamlit/911_emergencies/911.csv"
+DATA_PATH = "https://erdo-streamlit-911.s3.eu-central-1.amazonaws.com/911.csv"
 
 @st.cache
 def load_data(nrows):
